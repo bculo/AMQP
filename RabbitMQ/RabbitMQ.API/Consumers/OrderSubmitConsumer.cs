@@ -24,11 +24,11 @@ namespace RabbitMQ.Consumer.Consumers
 
         public async Task Consume(ConsumeContext<OrderSubmit> context)
         {
-            _logger.LogInformation("Order with ID {0} received");
+            _logger.LogInformation("Order with ID {0} received", context.Message.OrderId);
 
             var order = await PrepareOrder(context.Message);
 
-            _logger.LogInformation("Order with ID {0} saved");
+            _logger.LogInformation("Order with ID {0} saved", context.Message.OrderId);
 
             await context.Publish(new OrderSubmitted
             {
