@@ -13,5 +13,5 @@ Azure service bus and MassTransit demo
   - Start project
   - Execute API endpoint method SubmitOrder in UI project
 
-![Optional Text](../master/Assets/Sreenshot_1.png)
+![alt text](https://github.com/bculo/AMQP/blob/main/Assets/Screenshot_1.png)
 
