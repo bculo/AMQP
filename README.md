@@ -6,6 +6,8 @@ RabbitMQ and MassTransit demo
   - Start project
   - Execute API endpoint method SubmitOrder in UI project
 
+![alt text](https://github.com/bculo/AMQP/blob/main/Assets/Screenshot_2.png)
+
 Azure service bus and MassTransit demo
   - azure account with azure service bus resource (Standard subscription required)
   - change connection string in appsettings.json (API, Dashboard, UI)
