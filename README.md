@@ -12,3 +12,5 @@ Azure service bus and MassTransit demo
   - Right click on solution "Amqp" -> Properties -> Choose Multiple startuo projects (API, Dashboard, UI)
   - Start project
   - Execute API endpoint method SubmitOrder in UI project
+
+![alt text](Assets/Sreenshot_1-png)
